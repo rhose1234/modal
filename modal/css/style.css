@@ -1,22 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,300&display=swap');
 
-:root, button{
-    font-family: 'Raleway', serif;
-}
+
 
 *{
     box-sizing: border-box;
-}
-
-.color{
-    background: linear-gradient(to right, #e1e0ff, #d7fadd);
+    font-family: 'Poppins', sans-serif;
 }
 
 body{
-    background: #191919;
+   
     background: white;
-    user-select: none;
-    letter-spacing: 3px;
+    
+    letter-spacing: 1px;
     color: #b9b9b9;
 }
 
@@ -35,12 +30,32 @@ body{
 }
 .wrapper h3{
     text-align: center;
-    margin-top: 30px;
+   
     color: white;
+    font-size: 30px;
 }
 .wrapper p{
     margin-top: 30px;
     text-align: center;
     color: white;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px) { 
+    .wrapper{
+        text-align: center;
+        padding: 40px;
+        height: 50%;
+        left: 50%;
+        top: 50%;
+        width: 100%;
+        
+    }
+    .wrapper h3{
+        font-size: 25px;
+    }
+    .wrapper p{
+        font-size: 17px;
+    }
 }
 
